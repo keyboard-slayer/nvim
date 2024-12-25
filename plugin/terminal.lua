@@ -6,8 +6,8 @@ local state = {
 }
 
 local function open_terminal(opts)
-	local width = 120
-	local height = 40
+	local width = 3 * math.ceil(vim.o.columns / 4)
+	local height = 3 * math.ceil(vim.o.lines / 4)
 
 	local col = math.floor((vim.o.columns - width) / 2)
 	local row = math.floor((vim.o.lines - height) / 2.5)
