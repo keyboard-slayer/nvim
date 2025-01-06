@@ -48,4 +48,4 @@ vim.api.nvim_create_user_command("TerminalToggle", function()
 	end
 end, {})
 
-vim.keymap.set({ "n", "t" }, "<leader>t", "<cmd>TerminalToggle<CR>")
+vim.keymap.set("n", "<leader>t", "<cmd>TerminalToggle<CR>")
