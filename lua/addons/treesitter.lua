@@ -1,22 +1,22 @@
 return {
-	{
-		"nvim-treesitter/nvim-treesitter",
-		build = ":TSUpdate",
-		main = "nvim-treesitter.configs",
-		opts = {
-			auto_install = true,
-			highlight = {
-				enable = true,
-			},
-			indent = {
-				enable = true,
-			},
-		},
-	},
-	{
-		"nvim-treesitter/nvim-treesitter-context",
-		opts = {
-			enable = true,
-		},
-	},
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    main = "nvim-treesitter.configs",
+    opts = {
+      auto_install = true,
+      highlight = {
+        enable = true,
+      },
+      indent = {
+        enable = true,
+      },
+    },
+  },
+  {
+    "nvim-treesitter/nvim-treesitter-context",
+    opts = {
+      enable = true,
+    },
+  },
 }
